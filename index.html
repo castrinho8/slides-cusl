@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>VACmatch</title>
+   <meta name="viewport" content="width=1024" />
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta charset="utf-8" />
+   <meta name="Author" content="Pablo Castro &amp; Santiago Saavedra" />
+   <link href='http://fonts.googleapis.com/css?family=Gabriela|Sintony:700,400' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+   <link rel="stylesheet" href="reveal.js/css/reveal.min.css" />
+   <link rel="stylesheet" href="css/style.css" id="theme" />
+      <!-- <link rel="stylesheet" href="css/pdf.css"/> -->
+
+   <!-- For syntax highlighting -->
+   <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css" />
+
+   <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+   <script>
+      document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+   </script>
+
+   <!--[if lt IE 9]>
+   <script src="lib/js/html5shiv.js"></script>
+   <![endif]-->
+</head>
+
+
+</head>
+<body>
+   <div class="reveal">
+      <div class="slides">
+
+      <section id="portada" data-background="img/fondos/futsal_night.jpg">
+         <img src="img/logo_vacmatch_name.png" width="80%"/>
+         <small><b>Pablo Castro Valiño - UDC</b></small>
+      </section>
+
+      <section>
+        <h3>Creative Commons</h3>
+        <h3><em>Reconocimiento - Compartir igual</em></h3>
+        <h3 class="fragment">Fotografías de stock</h3>
+      </section>
+
+      <section data-background="white">
+         <img src="img/logos/gpul.svg" width="30%" height="30%">
+      </section>
+
+      <section data-background="img/fondos/arduino.jpg" data-background-size="100%">
+      </section>
+
+      <section data-background="img/fondos/akademy2015.jpg" data-background-size="100%">
+      </section>
+
+      <section data-background="white">
+         <div class="fragment">
+           <img src="img/logos/labs-logo.svg" width="10%">
+           <img src="img/logos/akademy.png" width="25%">
+           <img src="img/logos/librecon.png" width="40%">
+         </div>
+         <br/>
+         <img class="fragment" src="img/logos/fosdem.jpg" width="10%">
+      </section>
+
+      <section data-background-size="100%">
+         <h4>Software libre como negocio</h4>
+         <h4>Contribuir a proyectos <em>Open Source</em></h4>
+         <h4>Gobierno <em>asambleario</em></h4>
+         <h4><em>Autoformación</em></h4>
+      </section>
+
+
+      <section data-background="img/fondos/paper.jpg" data-background-size="100%">
+      </section>
+
+      <section data-background="img/logo_vacmatch.png" data-background-size="100%">
+      </section>
+
+      <section data-background="img/fondos/hockey_hielo.jpg">
+         <h3>VACmatch <em>Web</em></h3>
+      </section>
+
+      <section>
+            <p>
+               <span class="fa fa-laptop"></span>
+            </p>
+            <p>
+               <h4>Página web propia</h4>
+            </p>
+            <p>
+               <span class="fa fa-calendar"></span>
+            </p>
+            <p>
+               <em>Calendario y clasificaciones</em>
+            </p>
+            <p>
+               <span class="fa fa-exchange"></span>
+            </p>
+            <p>
+               <h4>Inscripciones y aplazamientos</h4>
+            </p>
+            <p>
+               <span class="fa fa-mobile"></span>
+            </p>
+            <p>
+               <em>Notificaciones</em>
+            </p>
+            <aside class="notes">
+               <ul>
+                  <li>Web para que federaciones realicen electrónicamente su trabajo diario</li>
+               </ul>
+            </aside>
+      </section>
+
+      <section data-background="img/fondos/tablet.jpg">
+         <h3>VACmatch <em>Mobile</em></h3>
+      </section>
+
+      <section>
+        <p>
+           <span class="fa fa-cloud"></span>
+        </p>
+        <p>
+           <h4><em>Resultados en tiempo real</em></h4>
+        </p>
+        <p>
+           <span class="fa fa-desktop"></span>
+        </p>
+        <p>
+           <h4>Funciona offline</h4>
+        </p>
+        <p>
+           <span class="fa fa-futbol-o"></span>
+        </p>
+        <p>
+           <h4><em>Adaptable a múltiples deportes</em></h4>
+        </p>
+      </section>
+
+      <section data-background="img/fondos/emprendedores.jpg" >
+        <h2><em>Lean Startup</em></h2>
+        <h2 class="fragment">Scrum <br/>+<br/> eXtremeProgramming</h2>
+        <aside class="notes">
+          Prototipo con cliente
+          Torneo VACmatch
+          Refactor
+          Sprints backlog adaptable,
+          reuniones semanales/diarias
+          TDD, Releases continuas
+        </aside>
+      </section>
+
+      <section data-background="img/fondos/valla.jpg" data-background-size="100%">
+      </section>
+
+      <section>
+        <h3 class="fragment">Free Software</h3>
+      </section>
+
+      <section data-background="white">
+        <img src="img/logos/tecnologias/react.png" width="40%">
+        <img src="img/logos/tecnologias/flux.svg" width="25%">
+        <br/>
+        <img src="img/logos/tecnologias/pouchdb.svg" width="10%">
+      </section>
+
+      <section data-background="white">
+        <img src="img/logos/tecnologias/atom.png" width="40%">
+      </section>
+
+      <section data-background="white">
+        <img src="img/logos/tecnologias/gerrit.png" width="20%">
+        <img class="fragment" src="img/logos/tecnologias/github.png" width="30%">
+      </section>
+
+      <section>
+        <h3>Git flow</h3>
+      </section>
+
+      <section data-background="white">
+        <img src="img/logos/tecnologias/jenkins.png" width="40%">
+        <img class="fragment" src="img/logos/tecnologias/travis.jpg" width="40%">
+      </section>
+
+      <section data-background="white">
+        <img src="img/logos/tecnologias/jest.png" width="20%">
+      </section>
+
+      <section data-background="white">
+        <img src="img/logos/tecnologias/redmine.png" width="40%">
+      </section>
+
+      <section>
+        <h3>Futuro</h3>
+      </section>
+
+      <section data-background="white">
+        <img src="img/logos/tecnologias/taiga.png" width="15%">
+        <img class="fragment" src="img/logos/tecnologias/cordova.png" width="30%">
+        <img class="fragment" src="img/logos/tecnologias/docker.png" width="25%">
+      </section>
+
+      <section>
+        <video width="500px" height="500px" controls>
+          <source src="video/demo.ogv" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+      </section>
+
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+      <section data-background="img/fondos/road.jpg" data-background-size="100%">
+      </section>
+
+      <section data-background="white">
+        <img src="img/logos/logo_xunta2.png" width="30%">
+        <img src="img/logos/gof.png" width="40%">
+        <br/>
+        <img src="img/logos/yuzz.jpeg" width="30%">
+        <img src="img/logos/logo_udc.jpg" width="40%">
+      </section>
+
+      <section data-background="img/fondos/team1.jpg" data-background-size="100%">
+        <h3>Comunidad</h3>
+        <aside class="notes">
+          Hackathones
+          PFCs
+        </aside>
+      </section>
+
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+      <section data-background="img/fondos/lego_indiana.jpg" data-background-size="100%">
+         <div class="fragment fade-in">
+          <h2>Gracias!</h2>
+          <br/>
+          <h4>pablo.castro@vacmatch.com</h4>
+          <br/>
+          <div class="fragment">
+            <h4><span class="fa fa-github"></span> github.com/vacmatch</h4>
+            <h4>vacmatch.com</h4>
+          </div>
+         </div>
+      </section>
+
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+      </div>
+   </div>
+
+<footer class="authors">
+   <div style="float:left;text-align:left; margin-right: 0">
+      <img src="img/logo_vacmatch_transparent.png" width="8%"/>
+   </div>
+</footer>
+
+   <script src="reveal.js/lib/js/head.min.js"></script>
+   <script src="reveal.js/js/reveal.min.js"></script>
+
+   <script>
+
+      window.addEventListener('load', function() {
+      var s = document.getElementsByClassName('demo');
+      console.log(s)
+      s = Array.prototype.slice.call(s, 0);
+      s.forEach(function(obj) {
+         var e = document.createElement('div');
+         e.className = "fragment demo-fragment"
+         e.innerHTML = "DEMO"
+         console.log(obj)
+         obj.appendChild(e)
+      })}, false);
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+         controls: false,
+         progress: true,
+         history: true,
+         center: true,
+         slideNumber: true,
+
+         width: 800,
+         height: 600,
+         margin: 0.05,
+         minScale: 0.5,
+         maxScale: 1,
+
+         theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+         transition: 'none' || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+         // Optional libraries used to extend on reveal.js
+         dependencies: [
+            { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: 'reveal.js/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+            { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+            { src: '/socket.io/socket.io.js', async: true },
+            { src: 'notes-server/client.js', async: true },
+            // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+            // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+      });
+
+   </script>
+<script>
+/*window.addEventListener("mousedown", handleClick, false);
+window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+
+function handleClick(e) {
+   e.preventDefault();
+   if(e.button === 0) Reveal.next();
+   if(e.button === 2) Reveal.prev();
+}*/
+</script>
+
+</body>
+</html>
