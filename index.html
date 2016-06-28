@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=1024" />
    <meta name="apple-mobile-web-app-capable" content="yes" />
    <meta charset="utf-8" />
-   <meta name="Author" content="Pablo Castro &amp; Santiago Saavedra" />
+   <meta name="Author" content="Pablo Castro" />
    <link href='http://fonts.googleapis.com/css?family=Gabriela|Sintony:700,400' rel='stylesheet' type='text/css'>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
@@ -15,6 +15,7 @@
 
    <link rel="stylesheet" href="reveal.js/css/reveal.min.css" />
    <link rel="stylesheet" href="css/style.css" id="theme" />
+   <link rel="stylesheet" href="css/custom.css" id="theme" />
       <!-- <link rel="stylesheet" href="css/pdf.css"/> -->
 
    <!-- For syntax highlighting -->
@@ -36,35 +37,30 @@
    <div class="reveal">
       <div class="slides">
 
-      <section id="portada" data-background="img/fondos/futsal_night.jpg">
-         <img src="img/logo_vacmatch_name.png" width="80%"/>
-         <small><b>Pablo Castro Valiño - UDC</b></small>
+      <section id="portada" data-background="img/fondos/futsal_night.jpg" class="top-portada-position">
+        <p><img src="img/logo_vacmatch_mobile.png" width="70%"/></p>
+        <h3><small><i>Aplicación web y móvil para la<br/> gestión electrónica de actas
+deportivas</i></small></h3>
+        <div class="pull-right directors">
+        <p><small><b>Pablo Castro Valiño</b></small></p>
+        <p><small>Director: <b>Santiago Saavedra López</b></small></p>
+        <p><small>Tutor: <b>Fernando Bellas Permuy</b></small></p>
+        </div>
       </section>
 
       <section>
-        <h3>Creative Commons</h3>
-        <h3><em>Reconocimiento - Compartir igual</em></h3>
+        <h3><em>AGPL</em></h3>
+        <h3 class="fragment">GNU Free Documentation License</h3>
+        <h3 class="fragment">Creative Commons <em>Reconocimiento - Compartir igual</em></h3>
         <h3 class="fragment">Fotografías de stock</h3>
       </section>
 
-      <section data-background="white">
-         <img src="img/logos/gpul.svg" width="30%" height="30%">
-      </section>
-
-      <section data-background="img/fondos/arduino.jpg" data-background-size="100%">
-      </section>
-
-      <section data-background="img/fondos/akademy2015.jpg" data-background-size="100%">
-      </section>
-
-      <section data-background="white">
-         <div class="fragment">
-           <img src="img/logos/labs-logo.svg" width="10%">
-           <img src="img/logos/akademy.png" width="25%">
-           <img src="img/logos/librecon.png" width="40%">
-         </div>
-         <br/>
-         <img class="fragment" src="img/logos/fosdem.jpg" width="10%">
+      <section>
+         <h2>Índice</h2>
+         <h3>1.Introducción <em>2.Demo</em></h3>
+         <h3><em>3.Metodología</em> 4.Planificación</h3>
+         <h3>5.Desarrollo<em> 6.Tecnologías</em></h3>
+         <h3><em>7.Conclusiones y trabajo futuro</em></h3>
       </section>
 
       <section data-background-size="100%">
@@ -74,8 +70,10 @@
          <h4><em>Autoformación</em></h4>
       </section>
 
-
       <section data-background="img/fondos/paper.jpg" data-background-size="100%">
+      </section>
+
+      <section data-background="img/fondos/acta.jpg" data-background-size="100%">
       </section>
 
       <section data-background="img/logo_vacmatch.png" data-background-size="100%">
@@ -140,6 +138,24 @@
         <p>
            <h4><em>Adaptable a múltiples deportes</em></h4>
         </p>
+        <p>
+           <span class="fa fa-thumbs-up"></span>
+        </p>
+        <p>
+           <h4>Centrada en la usabilidad</h4>
+        </p>
+      </section>
+
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+      <section>
+        <h3>2.Demo</h3>
+      </section>
+
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+      <section>
+        <h3>3.Metodología</h3>
       </section>
 
       <section data-background="img/fondos/emprendedores.jpg" >
@@ -148,68 +164,160 @@
         <aside class="notes">
           Prototipo con cliente
           Torneo VACmatch
-          Refactor
           Sprints backlog adaptable,
           reuniones semanales/diarias
           TDD, Releases continuas
         </aside>
       </section>
 
-      <section data-background="img/fondos/valla.jpg" data-background-size="100%">
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+      <section>
+        <h3>4.Planificación</h3>
       </section>
 
       <section>
-        <h3 class="fragment">Free Software</h3>
+        <div>
+          <h4><em>Julio - Noviembre 2015</em> <small>155 horas</small></h4>
+          <h4>Validación de negocio <em>2 sprints</em></h4>
+        </div>
+        <div class="fragment">
+          <hr/>
+          <h4><em>Noviembre 2015 - Enero 2016</em> <small>208 horas</small><h4/>
+          <h4>Desarrollo de producto <em>5 sprints</em></h4>
+        </div>
+        <div class="fragment">
+          <hr/>
+          <h4><em>Enero - Mayo 2016</em> <small>189 horas</small><h4/>
+          <h4>De empresa a comunidad <em>8 sprints</em></h4>
+        </div>
+        <aside class="notes">
+          <ul>
+            <li>
+              Prototipo visual + funcional. Federaciones
+              155 horas
+            </li>
+            <li>
+              Torneo + Lonja
+              208
+            </li>
+            <li>
+              Abandonamos empresa
+              189 horas  -> 552 horas total
+            </li>
+          </ul>
+        </aside>
+      </section>
+
+      <section data-background="img/fondos/valla.jpg" data-background-size="100%">
+      </section>
+
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+      <section>
+        <h3>5.Tecnologías libres</h3>
       </section>
 
       <section data-background="white">
-        <img src="img/logos/tecnologias/react.png" width="40%">
-        <img src="img/logos/tecnologias/flux.svg" width="25%">
+        <img src="img/logos/tecnologias/react.png" width="40%"/>
+        <img src="img/logos/tecnologias/flux.svg" width="25%"/>
         <br/>
-        <img src="img/logos/tecnologias/pouchdb.svg" width="10%">
+        <img src="img/logos/tecnologias/pouchdb.svg" width="10%"/><span class="secondary-color">PouchDB</span><br/><hr/>
+        <img src="img/logos/tecnologias/couchdb.png" width="18%"/>
       </section>
 
       <section data-background="white">
         <img src="img/logos/tecnologias/atom.png" width="40%">
+        <img src="img/logos/tecnologias/redmine.png" width="40%">
       </section>
 
       <section data-background="white">
-        <img src="img/logos/tecnologias/gerrit.png" width="20%">
+        <img src="img/logos/tecnologias/gerrit.png" width="20%"><span class="secondary-color"><small><em>Gerrit Code Review</em></small></span>
         <img class="fragment" src="img/logos/tecnologias/github.png" width="30%">
+      </section>
+
+      <section data-background="white">
+        <img src="img/logos/tecnologias/jest.png" width="20%"><br/><span class="secondary-color">
+        <small><em>Jest Unit Testing</em></small>
+        <div class="fragment">
+          <img src="img/logos/tecnologias/jenkins.png" width="40%">
+          <img src="img/logos/tecnologias/travis.jpg" width="40%">
+        </div>
+      </section>
+
+      <section data-background="white">
+        <img src="img/logos/tecnologias/cordova.png" width="30%">
+        <img src="img/logos/tecnologias/docker.png" width="25%">
+      </section>
+
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+      <section>
+        <h2>6.Desarrollo</h2>
+      </section>
+
+      <section>
+        <h3>Multideporte</h3>
+      </section>
+
+      <section data-background="white" data-background-size="100%">
+        <img class="" src="img/diagramas/sport_diagram.png" width="150%"/>
+      </section>
+
+      <section data-background="white" data-background-size="100%">
+        <h3><em>Capa servicios</em></h3>
+        <img class="diagram" src="img/diagramas/events_diagram.png" width="150%"/>
+      </section>
+
+      <section data-background="white" data-background-size="100%">
+        <h3><em>Capa vista</em></h3>
+        <img src="img/diagramas/events_view_diagram.png" width="100%"/>
+      </section>
+
+      <section>
+        <h3>Factoría de servicios</h3>
+      </section>
+
+      <section>
+        <pre style="margin-top: -100px; margin-left: -100px; width: 1000px;" >
+          <code style="max-height: 1300px;" data-trim>
+constructor () {
+      this._personService = new PersonService()
+      this._reportService = new ReportService()
+      this._refereeService = new RefereeService()
+      // Inject dependencies
+      this._eventService.ReportService = this._reportService
+      this._eventService.PersonService = this._personService
+      this._eventService.TeamService = this._teamService
+    ...
+      // Add services to the exposed list
+      this._servicesList.set(’ReportService’, this._reportService)
+      this._servicesList.set(’PersonService’, this._personService)
+      this._servicesList.set(’TeamService’, this._teamService)
+      this.isInitialized = true
+},
+
+getService (type) {
+      if (!this.isInitialized) {
+        this.constructor()
+      }
+      let service = this._servicesList.get(type)
+      if (!service) {
+        console.log(’Error getting ’, type, ’ service’)
+      }
+      return service
+}
+        </code></pre>
       </section>
 
       <section>
         <h3>Git flow</h3>
-      </section>
-
-      <section data-background="white">
-        <img src="img/logos/tecnologias/jenkins.png" width="40%">
-        <img class="fragment" src="img/logos/tecnologias/travis.jpg" width="40%">
-      </section>
-
-      <section data-background="white">
-        <img src="img/logos/tecnologias/jest.png" width="20%">
-      </section>
-
-      <section data-background="white">
-        <img src="img/logos/tecnologias/redmine.png" width="40%">
-      </section>
-
-      <section>
-        <h3>Futuro</h3>
-      </section>
-
-      <section data-background="white">
-        <img src="img/logos/tecnologias/taiga.png" width="15%">
-        <img class="fragment" src="img/logos/tecnologias/cordova.png" width="30%">
-        <img class="fragment" src="img/logos/tecnologias/docker.png" width="25%">
-      </section>
-
-      <section>
-        <video width="500px" height="500px" controls>
-          <source src="video/demo.ogv" type="video/ogg">
-            Your browser does not support the video tag.
-        </video>
+        <hr/>
+        <h4>Feature -> <em>Development</em></h4>
+        <h4>Bugfix -> <em>Development</em></h4>
+        <h4 class="fragment">TDD + Implementación</h4>
+        <h4 class="fragment"><em>Development -> Master</em></h4>
+        <h4 class="fragment">Integración continua</h4>
       </section>
 
 <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
@@ -225,22 +333,29 @@
         <img src="img/logos/logo_udc.jpg" width="40%">
       </section>
 
-      <section data-background="img/fondos/team1.jpg" data-background-size="100%">
-        <h3>Comunidad</h3>
+      <section data-background="img/fondos/cusl.jpg" data-background-size="100%">
         <aside class="notes">
-          Hackathones
-          PFCs
+          75 persoas > 40 proxectos
+          Mejor proyecto dispositivos móviles
+          Concurso UGR
         </aside>
       </section>
 
+      <section data-background="img/fondos/team1.jpg" data-background-size="100%">
+        <h3>7.Futuro</h3>
+      </section>
+
+      <section>
+        <h4>Hackathones</h4>
+        <h4>TFG/TFM</h4>
+        <h4>GPUL Summer Of Code</h4>
+      </section>
 <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
 <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
 
       <section data-background="img/fondos/lego_indiana.jpg" data-background-size="100%">
          <div class="fragment fade-in">
           <h2>Gracias!</h2>
-          <br/>
-          <h4>pablo.castro@vacmatch.com</h4>
           <br/>
           <div class="fragment">
             <h4><span class="fa fa-github"></span> github.com/vacmatch</h4>

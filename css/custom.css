@@ -1,0 +1,18 @@
+.diagram {
+  margin-left: -30% !important;
+  max-width: 150% !important;
+}
+
+.top-portada-position {
+  top: -150px!important;
+}
+
+.directors {
+  font-size: 90%!important;
+  text-align: right;
+  margin-top: 70px!important;
+}
+
+.secondary-color {
+  color: black;
+}
